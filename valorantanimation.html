@@ -1,0 +1,230 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+            min-height: 100vh;
+            background: url("https://preview.redd.it/52f61nfzmwl51.jpg?auto=webp&s=ea0d396990fbdffe68c214d263810737f9faac6f") no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            overflow: hidden;
+        }
+        
+        .DEBUGGING_RELAY {
+            position: relative;
+            margin: auto;
+            height: 0.71em;
+            color: transparent;
+            font-family: 'Cambay', sans-serif;
+            font-size: 9vw;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            line-height: 1.03em;
+        }
+        
+        .DEBUGGING_RELAY>div {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            color: #dc3d4b;
+            pointer-events: none;
+        }
+        
+        .DEBUGGING_RELAY>div:nth-child(1) {
+            -webkit-mask-image: linear-gradient(black 25%, transparent 25%);
+            mask-image: linear-gradient(black 25%, transparent 25%);
+            animation: DEBUGGING_RELAY1 5s infinite;
+        }
+        
+        .DEBUGGING_RELAY>div:nth-child(2) {
+            -webkit-mask-image: linear-gradient(transparent 25%, black 25%, black 50%, transparent 50%);
+            mask-image: linear-gradient(transparent 25%, black 25%, black 50%, transparent 50%);
+            animation: DEBUGGING_RELAY2 5s infinite;
+        }
+        
+        .DEBUGGING_RELAY>div:nth-child(3) {
+            -webkit-mask-image: linear-gradient(transparent 50%, black 50%, black 75%, transparent 75%);
+            mask-image: linear-gradient(transparent 50%, black 50%, black 75%, transparent 75%);
+            animation: DEBUGGING_RELAY3 5s infinite;
+        }
+        
+        .DEBUGGING_RELAY>div:nth-child(4) {
+            -webkit-mask-image: linear-gradient(transparent 75%, black 75%);
+            mask-image: linear-gradient(transparent 75%, black 75%);
+            animation: DEBUGGING_RELAY4 5s infinite;
+        }
+        
+        .DEBUGGING_RELAY>div:nth-child(5) {
+            -webkit-mask-image: linear-gradient(transparent 75%, black 75%);
+            mask-image: linear-gradient(transparent 95%, black 75%);
+            animation: DEBUGGING_RELAY5 5s infinite;
+        }
+        
+        .DEBUGGING_RELAY>div:nth-child(6) {
+            -webkit-mask-image: linear-gradient(transparent 75%, black 75%);
+            mask-image: linear-gradient(transparent 105%, black 75%);
+            animation: DEBUGGING_RELAY6 5s infinite;
+        }
+        
+        .button {
+            position: absolute;
+            z-index: 999;
+            text-decoration: none;
+            margin-top: 130px;
+        }
+        
+        button {
+            width: 180px;
+            height: 30px;
+            background: rgb(34, 10, 94);
+            border-radius: 40px;
+            outline: none;
+            border: none;
+            font-size: 15px;
+            margin-top: 30px;
+        }
+        
+        button a {
+            text-decoration: none;
+            word-spacing: 5px;
+            color: white;
+            transition: all .3s ease-in-out;
+            text-align: center;
+        }
+        
+        button:hover {
+            box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5);
+        }
+        
+        button a:hover {
+            letter-spacing: 5px;
+        }
+        
+        hr {
+            margin-top: 60px;
+            width: 50%;
+            background-color: bisque;
+        }
+        
+        @keyframes DEBUGGING_RELAY1 {
+            0% {
+                transform: translateX(100%);
+            }
+            26% {
+                transform: translateX(0%);
+            }
+            83% {
+                transform: translateX(-0.1%);
+            }
+            100% {
+                transform: translateX(-120%);
+            }
+        }
+        
+        @keyframes DEBUGGING_RELAY2 {
+            0% {
+                transform: translateX(100%);
+            }
+            24% {
+                transform: translateX(0.5%);
+            }
+            82% {
+                transform: translateX(-0.2%);
+            }
+            100% {
+                transform: translateX(-125%);
+            }
+        }
+        
+        @keyframes DEBUGGING_RELAY3 {
+            0% {
+                transform: translateX(100%);
+            }
+            22% {
+                transform: translateX(0%);
+            }
+            81% {
+                transform: translateX(0%);
+            }
+            100% {
+                transform: translateX(-130%);
+            }
+        }
+        
+        @keyframes DEBUGGING_RELAY4 {
+            0% {
+                transform: translateX(100%);
+            }
+            20% {
+                transform: translateX(0%);
+            }
+            80% {
+                transform: translateX(0%);
+            }
+            100% {
+                transform: translateX(-135%);
+            }
+        }
+        
+        @keyframes DEBUGGING_RELAY5 {
+            0% {
+                transform: translateX(100%);
+            }
+            20% {
+                transform: translateX(0%);
+            }
+            80% {
+                transform: translateX(0%);
+            }
+            100% {
+                transform: translateX(-140%);
+            }
+        }
+        
+        @keyframes DEBUGGING_RELAY6 {
+            0% {
+                transform: translateX(100%);
+            }
+            20% {
+                transform: translateX(0%);
+            }
+            80% {
+                transform: translateX(0%);
+            }
+            100% {
+                transform: translateX(-145%);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="DEBUGGING_RELAY">
+        VALORANT
+        <div>VALORANT</div>
+        <div>VALORANT</div>
+        <div>VALORANT</div>
+        <div>VALORANT</div>
+        <div>VALORANT</div>
+        <div>VALORANT</div>
+    </div>
+
+    <div class="button">
+        <hr>
+        <button><a href="valorant.html">DEFY NOW</a></button>
+    </div>
+</body>
+
+</html>
