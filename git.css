@@ -927,7 +927,7 @@ li {
         margin-top: 220px;
     }
     .body__text p {
-        margin: 10px 20px;
+        margin: 10px 35px;
         font-size: 18px;
     }
     .gallery {
@@ -959,7 +959,7 @@ li {
         width: 100%;
         text-align: center;
         margin-top: 40px;
-        margin-left: 10px;
+        margin-left: 5px;
     }
     .rounds p {
         font-size: 15px;
@@ -1002,7 +1002,7 @@ li {
         margin-top: 30px;
     }
     .list__button {
-        margin-top: 230px;
+        margin-top: 250px;
         display: flex;
         flex-direction: column;
         align-items: center;

@@ -10,11 +10,11 @@
 
 body,
 html {
-    background: #009fff;
+    background: #b92b27;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #ec2f4b, #009fff);
+    background: -webkit-linear-gradient(to right, #1565C0, #b92b27);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #ec2f4b, #009fff);
+    background: linear-gradient(to right, #1565C0, #b92b27);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-position: center;
@@ -902,7 +902,7 @@ li {
         margin-top: 220px;
     }
     .body__text p {
-        margin: 10px 90px;
+        margin: 10px 110px;
         font-size: 18px;
     }
     .gallery {

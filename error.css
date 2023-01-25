@@ -711,7 +711,7 @@ li {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        width: 95%;
+        width: 100%;
         margin-left: 20px;
         margin-top: 40px;
     }
@@ -782,8 +782,7 @@ li {
         padding: 4px;
     }
     .body__text p {
-        margin-top: 10px;
-        margin-right: 10px;
+        margin: 10px 50px;
         font-size: 18px;
         text-align: center;
     }
@@ -814,8 +813,8 @@ li {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        width: 85%;
-        margin: 40px 50px;
+        width: 100%;
+        margin: 40px 10px;
     }
     .rules {
         display: flex;
@@ -905,7 +904,7 @@ li {
         margin-top: 220px;
     }
     .body__text p {
-        margin: 10px 20px;
+        margin: 10px 30px;
         font-size: 18px;
     }
     .gallery {
@@ -1031,7 +1030,7 @@ li {
         margin-top: 220px;
     }
     .body__text p {
-        margin: 10px 35px;
+        margin: 10px 55px;
         font-size: 15px;
     }
     .gallery {
@@ -1060,7 +1059,7 @@ li {
     .rounds {
         display: flex;
         flex-direction: column;
-        width: 95%;
+        width: 100%;
         text-align: center;
         margin-top: 40px;
         margin-left: 10px;
@@ -1085,7 +1084,7 @@ li {
         font-size: 16px;
     }
     .rules h2 {
-        margin-left: -40px;
+        margin-left: -20px;
     }
     .coordinate {
         display: flex;
@@ -1159,7 +1158,7 @@ li {
         margin-top: 220px;
     }
     .body__text p {
-        margin: 10px 40px;
+        margin: 10px 60px;
         font-size: 15px;
     }
     .gallery {
@@ -1193,7 +1192,7 @@ li {
         margin: 40px 10px;
     }
     .rounds p {
-        font-size: 13px;
+        font-size: 15px;
     }
     .rounds h2 {
         margin-left: 10px;
