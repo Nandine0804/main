@@ -384,16 +384,17 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 8%;
+    padding: 0 2%;
     width: 100vw;
     overflow: hidden;
     height: 100vh;
+    word-break: normal;
 }
 
 .about_text {
     color: #fff;
     width: 600px;
-    height: 900px;
+    height: 700px;
 }
 
 .about_text h1 {
@@ -407,7 +408,7 @@ body {
 
 .about_container img {
     position: relative;
-    top: -10%;
+    top: -2%;
     right: 10%;
     width: 200px;
     height: 200px;
@@ -646,6 +647,7 @@ body {
     }
     li {
         font-size: 1rem;
+        white-space: break-spaces;
     }
     .rocket,
     .rocket_1,
@@ -675,13 +677,6 @@ body {
     body {
         overflow-x: hidden;
     }
-    .about_container img {
-        position: relative;
-        top: 30%;
-        left: 30%;
-        width: 90px;
-        height: 90px;
-    }
     .about_container {
         display: flex;
         flex-direction: column-reverse;
@@ -691,7 +686,7 @@ body {
     }
     .about_container img {
         position: relative;
-        top: 12%;
+        top: 25%;
         left: 32%;
         width: 90px;
         height: 90px;
@@ -781,10 +776,10 @@ body {
     }
     .about_container img {
         position: relative;
-        top: 30%;
-        left: 30%;
-        width: 90px;
-        height: 90px;
+        top: 47%;
+        left: 10%;
+        width: 50px;
+        height: 50px;
     }
     .about_container {
         display: flex;
@@ -798,16 +793,19 @@ body {
         padding: 20px;
     }
     .about_text p {
-        font-size: small;
+        font-size: 13px;
         padding: 20px;
+        white-space: normal;
     }
     .about_text {
         padding: 25px;
         margin-left: -10px;
+        margin-top: 50px;
+        width: 50%;
     }
     .about_text {
         width: 440px;
-        margin-top: 120px;
+        margin-top: 220px;
         margin-left: 30px;
     }
     .about_container {
@@ -928,7 +926,8 @@ body {
     }
     .about_container img {
         top: 30%;
-        height: 20%;
+        width: 50px;
+        height: 50px;
     }
     .about_container {
         height: 100vh;
@@ -999,7 +998,7 @@ body {
         font-size: 0.7rem;
     }
     .tagline_1 {
-        letter-spacing: 3px;
+        letter-spacing: 2px;
         font-size: 8px;
     }
     button {
@@ -1064,12 +1063,13 @@ body {
     .about_text {
         width: 450px;
         margin-top: 120px;
-        margin-left: 10px;
+        margin-left: 40px;
     }
     .about_container img {
-        top: 27%;
-        width: 80px;
-        height: 80px;
+        top: 32%;
+        left: 5%;
+        width: 50px;
+        height: 50px;
     }
     .about_container {
         height: 100vh;
@@ -1120,9 +1120,10 @@ body {
         font-size: 0.6rem;
     }
     .tagline_1 {
-        letter-spacing: 6px;
-        font-size: 8px;
+        letter-spacing: 3px;
+        font-size: 9px;
         margin-left: 105px;
+        white-space: normal;
     }
     button {
         background: transparent;
@@ -1187,8 +1188,9 @@ body {
         margin-left: 30px;
     }
     .about_container img {
-        top: 56%;
-        height: 20%;
+        top: 30%;
+        width: 50px;
+        height: 50px;
     }
     .about_container {
         height: 100vh;
@@ -1321,7 +1323,8 @@ body {
     }
     .about_container img {
         top: 30%;
-        height: 20%;
+        width: 50px;
+        height: 50px;
     }
     .about_container {
         height: 100vh;
@@ -1439,9 +1442,10 @@ body {
         margin-left: 30px;
     }
     .about_container img {
-        top: 30%;
-        width: 70px;
-        height: 70px;
+        top: 27%;
+        width: 40px;
+        height: 40px;
+        left: 20%;
     }
     .about_container {
         height: 120vh;

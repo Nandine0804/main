@@ -85,7 +85,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     color: white;
-    background-image: url("card2.jpg");
+    background-image: url("./images/card2.jpg");
     background-position: center;
     background-size: cover;
     object-fit: contain;
@@ -125,7 +125,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     color: white;
-    background-image: url("card4.png");
+    background-image: url("./images/card4.png");
     background-position: center;
     background-size: cover;
     object-fit: contain;
@@ -145,7 +145,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     color: white;
-    background-image: url("card5.png");
+    background-image: url("./images/card5.jpg");
     background-position: center;
     background-size: cover;
     object-fit: contain;
@@ -206,7 +206,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     color: white;
-    background-image: url("card9.jpg");
+    background-image: url("./images/card9.jpg");
     background-position: center;
     background-size: cover;
     object-fit: contain;
