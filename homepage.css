@@ -176,6 +176,22 @@ body {
     animation: rocket 10s linear infinite;
 }
 
+.about__logo_1 {
+    width: 150px;
+    position: absolute;
+    right: 20%;
+    bottom: 0;
+    animation: rocket 10s linear infinite;
+}
+
+.about__logo_2 {
+    width: 160px;
+    position: absolute;
+    right: 20%;
+    bottom: 0;
+    animation: rocket 5s linear infinite;
+}
+
 .launch-time {
     display: flex;
 }
@@ -381,20 +397,20 @@ body {
     background-size: cover;
     background-position: center;
     position: relative;
-    display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: 0 2%;
     width: 100vw;
     overflow: hidden;
+    display: flex;
     height: 100vh;
     word-break: normal;
 }
 
 .about_text {
     color: #fff;
-    width: 600px;
-    height: 700px;
+    width: 500px;
+    height: 800px;
+    margin-left: 50px;
 }
 
 .about_text h1 {
@@ -502,7 +518,8 @@ body {
     .rocket,
     .rocket_1,
     .rocket_2,
-    .rocket_3 {
+    .rocket_3.about__logo_1,
+    .about__logo_2 {
         width: 190px;
     }
     .col {
@@ -1066,7 +1083,7 @@ body {
         margin-left: 40px;
     }
     .about_container img {
-        top: 26%;
+        top: 28%;
         left: 5%;
         width: 50px;
         height: 50px;
