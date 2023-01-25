@@ -11,6 +11,7 @@
 body {
     overflow-x: hidden;
     overflow-y: auto;
+    white-space: normal;
 }
 
 .container {
@@ -25,15 +26,30 @@ body {
     height: 100vh;
 }
 
+.row_title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50px;
+    height: 50px;
+    gap: 30px;
+}
+
 .logo {
     height: 120px;
     padding: 20px 0;
-    margin-top: 15px;
+    margin-top: 10px;
     cursor: pointer;
 }
 
+#cross {
+    width: 40px;
+    height: 40px;
+    margin-top: 50px;
+}
+
 .content {
-    top: 50%;
+    top: 60%;
     position: absolute;
     transform: translateY(-50%);
     color: #fff;
@@ -91,7 +107,7 @@ body {
 }
 
 .rocket {
-    width: 200px;
+    width: 150px;
     position: absolute;
     right: 30%;
     bottom: 0;
@@ -113,7 +129,7 @@ body {
 }
 
 .rocket_1 {
-    width: 200px;
+    width: 150px;
     position: absolute;
     right: 10%;
     bottom: 0;
@@ -121,7 +137,7 @@ body {
 }
 
 .rocket_2 {
-    width: 200px;
+    width: 150px;
     position: absolute;
     right: 20%;
     bottom: 0;
@@ -129,7 +145,7 @@ body {
 }
 
 .rocket_3 {
-    width: 200px;
+    width: 150px;
     position: absolute;
     right: 20%;
     bottom: 0;
@@ -137,7 +153,7 @@ body {
 }
 
 .rocket_4 {
-    width: 200px;
+    width: 150px;
     position: absolute;
     right: 10%;
     bottom: 0;
@@ -145,7 +161,7 @@ body {
 }
 
 .rocket_5 {
-    width: 170px;
+    width: 150px;
     position: absolute;
     right: 20%;
     bottom: 0;
@@ -803,8 +819,29 @@ body {
 }
 
 @media screen and (max-width: 510px) {
+    .row_title {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 40px;
+        height: 40px;
+        gap: 30px;
+        white-space: nowrap;
+    }
+    .logo {
+        height: 120px;
+        padding: 15px 0;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+    #cross {
+        width: 30px;
+        height: 30px;
+        margin-top: 50px;
+    }
     body {
         overflow-x: hidden;
+        max-width: 100%;
     }
     .container {
         height: 100vh;
@@ -903,8 +940,29 @@ body {
 }
 
 @media screen and (max-width: 430px) {
+    .row_title {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 40px;
+        height: 40px;
+        gap: 30px;
+    }
+    .logo {
+        height: 80px;
+        padding: 10px 0;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+    #cross {
+        width: 30px;
+        height: 30px;
+        margin-top: 50px;
+    }
     body {
         overflow-x: hidden;
+        white-space: nowrap;
+        max-width: 90vw;
     }
     .container {
         height: 100vh;
@@ -1142,18 +1200,31 @@ body {
 }
 
 @media screen and (max-width: 320px) {
+    .row_title {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 40px;
+        height: 40px;
+        gap: 30px;
+    }
+    .logo {
+        height: 70px;
+        padding: 15px 0;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+    #cross {
+        width: 30px;
+        height: 30px;
+        margin-top: 30px;
+    }
     body {
         overflow-x: hidden;
         max-width: 110vw;
     }
     .cont-title .image {
         margin-top: 50px;
-    }
-    .logo {
-        height: 100px;
-        padding: 20px 0;
-        margin-top: 10px;
-        cursor: pointer;
     }
     .launch-time div p {
         font-size: 41px;

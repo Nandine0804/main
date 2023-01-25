@@ -916,7 +916,7 @@ li {
         margin-top: 220px;
     }
     .body__text p {
-        margin: 10px 20px;
+        margin: 10px 40px;
         font-size: 18px;
     }
     .gallery {
@@ -948,10 +948,10 @@ li {
         width: 100%;
         text-align: center;
         margin-top: 40px;
-        margin-left: 10px;
+        margin-left: 0px;
     }
     .rounds p {
-        font-size: 15px;
+        font-size: 17px;
     }
     .rounds h2 {
         margin-left: 20px;
@@ -1205,7 +1205,7 @@ li {
         margin: 40px 10px;
     }
     .rounds p {
-        font-size: 13px;
+        font-size: 15px;
     }
     .rounds h2 {
         margin-left: 10px;
@@ -1255,7 +1255,7 @@ li {
         margin-top: -170px;
     }
     button {
-        width: 140px;
+        width: 160px;
         height: 30px;
         font-size: 10px;
     }

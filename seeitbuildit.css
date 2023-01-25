@@ -250,7 +250,7 @@ li {
     display: flex;
     flex-wrap: wrap;
     margin: 40px 80px;
-    height: 17vh;
+    height: 49vh;
     color: white;
     flex-direction: row;
 }
@@ -528,6 +528,7 @@ li {
         color: white;
         flex-direction: column;
         font-size: 17px;
+        gap: 30px;
         text-align: left;
     }
     .coordinate {
@@ -547,7 +548,7 @@ li {
         margin-top: 30px;
     }
     .list__button {
-        margin-top: 20px;
+        margin-top: 70px;
         margin-left: 10px;
         display: flex;
         flex-direction: row;
@@ -640,7 +641,7 @@ li {
         margin-top: 30px;
     }
     .list__button {
-        margin-top: 90px;
+        margin-top: 190px;
         margin-bottom: 60px;
         display: flex;
         flex-direction: column;
@@ -782,7 +783,7 @@ li {
         font-weight: 500;
         font-family: "Lato";
         color: #ffffff;
-        margin-top: -25px;
+        margin-top: -2px;
         margin-left: -1px;
         font-size: 9px;
         letter-spacing: 3px;
@@ -865,7 +866,7 @@ li {
         margin-top: 30px;
     }
     .list__button {
-        margin: 230px auto;
+        margin: 430px auto;
         margin-bottom: 30px;
         display: flex;
         flex-direction: column;
@@ -919,7 +920,7 @@ li {
         margin-top: 220px;
     }
     .body__text p {
-        margin: 10px 20px;
+        margin: 10px 30px;
         font-size: 18px;
     }
     .gallery {
@@ -994,7 +995,7 @@ li {
         margin-top: 30px;
     }
     .list__button {
-        margin-top: 230px;
+        margin-top: 440px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1124,7 +1125,7 @@ li {
         margin-top: 30px;
     }
     .list__button {
-        margin-top: 240px;
+        margin-top: 520px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1208,7 +1209,7 @@ li {
         margin: 40px 10px;
     }
     .rounds p {
-        font-size: 13px;
+        font-size: 15px;
     }
     .rounds h2 {
         margin-left: 10px;
@@ -1246,7 +1247,7 @@ li {
         margin-left: -10px;
     }
     .list__button {
-        margin-top: 280px;
+        margin-top: 740px;
         display: flex;
         flex-direction: column;
         align-items: center;

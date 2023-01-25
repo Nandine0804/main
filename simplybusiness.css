@@ -260,7 +260,7 @@ li {
 .coordinate {
     display: flex;
     flex-wrap: wrap;
-    margin: -200px 170px;
+    margin: -320px 170px;
     justify-content: center;
     float: left;
     font-size: 19px;

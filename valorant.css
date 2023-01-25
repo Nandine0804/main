@@ -169,7 +169,7 @@ li {
 }
 
 .body__text p {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 
 .body__text>p {
@@ -204,7 +204,7 @@ li {
 .gallery>img {
     grid-area: 1/1;
     width: 400px;
-    margin-top: -100px;
+    margin-top: -260px;
     aspect-ratio: 1;
     object-fit: cover;
     border-radius: 50%;
@@ -250,16 +250,15 @@ li {
     display: flex;
     flex-wrap: wrap;
     margin: 40px 80px;
-    height: 12vh;
+    height: 75vh;
     color: white;
-    gap: 30px;
     flex-direction: row;
 }
 
 .coordinate {
     display: flex;
     flex-wrap: wrap;
-    margin: -60px 170px;
+    margin: -270px 170px;
     justify-content: center;
     float: left;
     font-size: 19px;
@@ -268,13 +267,13 @@ li {
 }
 
 .rules h2 {
-    color: rgb(231, 163, 181);
+    color: black;
     font-size: 1.2rem;
     text-align: left;
 }
 
 h2 {
-    color: rgb(231, 163, 181);
+    color: black;
     font-size: 1.2rem;
 }
 
@@ -358,8 +357,8 @@ button:hover a {
     justify-content: center;
     flex-direction: row;
     animation: mymove 2s ease-in-out;
-    margin: 50px 60px;
-    gap: 20px;
+    margin: 80px 60px;
+    gap: 10px;
 }
 
 .list__button h2 {
@@ -525,38 +524,42 @@ li {
     .rules {
         display: flex;
         flex-wrap: wrap;
-        margin: 40px 40px;
+        margin: 30px 40px;
         color: white;
         flex-direction: row;
         font-size: 17px;
-        gap: 30px;
+        gap: 15px;
         text-align: left;
     }
     .coordinate {
         display: flex;
         flex-wrap: wrap;
-        margin: -20px 80px;
+        margin: 20px 80px;
         justify-content: center;
         color: white;
         flex-direction: column;
         font-size: 17px;
         margin-bottom: 40px;
     }
-    .round1 {
-        margin-bottom: 30px;
-    }
-    .round2 {
-        margin-top: 30px;
-    }
     .list__button {
-        margin-top: 70px;
-        margin-left: 0px;
+        margin-top: 190px;
+        margin-left: 10px;
         display: flex;
         flex-direction: row;
         gap: 20px;
     }
     .button button {
-        margin: 30px 40px;
+        margin: -10px 10px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .list__button {
+        margin-top: 50px;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
     }
 }
 
@@ -628,6 +631,7 @@ li {
     .coordinate {
         display: flex;
         flex-wrap: wrap;
+        margin-bottom: 40px;
         margin: 10px 80px;
         justify-content: center;
         color: white;
@@ -641,8 +645,9 @@ li {
         margin-top: 30px;
     }
     .list__button {
-        margin-top: 165px;
-        margin-left: 70px;
+        margin-top: 500px;
+        margin-left: 50px;
+        margin-bottom: 60px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -651,10 +656,7 @@ li {
         position: absolute;
         font-size: 13px;
         letter-spacing: 10px;
-        margin-top: -130px;
-    }
-    .button button {
-        align-items: center;
+        margin-top: -140px;
     }
 }
 
@@ -666,22 +668,25 @@ li {
         left: 6%;
         z-index: 999;
         position: absolute;
-        top: 4%;
+        top: 2%;
         border-radius: 30px;
         text-align: center;
         cursor: pointer;
         padding: 10px;
         font-size: 18px;
-        margin-top: 20px;
+        margin-top: 10px;
         margin-bottom: 40px;
+    }
+    .body__header img {
+        margin-top: -10px;
     }
     .container .box .role p {
         font-size: 10px;
         letter-spacing: 3px;
-        margin: -20px 10px;
+        margin: 0px 10px;
     }
     .container {
-        margin-top: 20px;
+        margin-top: 40px;
     }
     .body__about {
         flex-wrap: wrap;
@@ -757,7 +762,8 @@ li {
         margin-top: 30px;
     }
     .list__button {
-        margin-top: 300px;
+        margin-top: 450px;
+        margin-left: 50px;
         margin-bottom: 60px;
         display: flex;
         flex-direction: column;
@@ -767,27 +773,11 @@ li {
         position: absolute;
         font-size: 13px;
         letter-spacing: 10px;
-        margin-top: -190px;
+        margin-top: -140px;
     }
 }
 
 @media screen and (max-width: 560px) {
-    .back a img {
-        width: 50px;
-        height: 50px;
-        font-weight: 600;
-        left: 4%;
-        top: -1%;
-        z-index: 999;
-        position: absolute;
-        border-radius: 30px;
-        text-align: center;
-        cursor: pointer;
-        padding: 10px;
-        font-size: 18px;
-        margin-top: 20px;
-        margin-bottom: 40px;
-    }
     .body__header img {
         height: 50px;
         margin-top: 30px;
@@ -799,7 +789,7 @@ li {
         font-weight: 500;
         font-family: "Lato";
         color: #ffffff;
-        margin-top: -25px;
+        margin-top: -2px;
         margin-left: -1px;
         font-size: 9px;
         letter-spacing: 3px;
@@ -868,7 +858,7 @@ li {
     .coordinate {
         display: flex;
         flex-wrap: wrap;
-        margin: -10px 40px;
+        margin: 40px 40px;
         justify-content: center;
         color: white;
         flex-direction: column;
@@ -882,7 +872,7 @@ li {
         margin-top: 30px;
     }
     .list__button {
-        margin: 180px auto;
+        margin: 510px auto;
         margin-bottom: 30px;
         display: flex;
         flex-direction: column;
@@ -892,7 +882,7 @@ li {
         position: absolute;
         font-size: 13px;
         letter-spacing: 10px;
-        margin-top: -130px;
+        margin-top: -140px;
     }
     .container .box .title h1 {
         font-size: 18px;
@@ -936,8 +926,8 @@ li {
         margin-top: 220px;
     }
     .body__text p {
-        margin: 10px 20px;
-        font-size: 16px;
+        margin: 10px 30px;
+        font-size: 18px;
     }
     .gallery {
         align-items: center;
@@ -995,7 +985,7 @@ li {
     .coordinate {
         display: flex;
         flex-wrap: wrap;
-        margin: -10px 30px;
+        margin: 20px 30px;
         justify-content: center;
         color: white;
         flex-direction: column;
@@ -1011,7 +1001,7 @@ li {
         margin-top: 30px;
     }
     .list__button {
-        margin-top: 170px;
+        margin-top: 510px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1020,7 +1010,7 @@ li {
         position: absolute;
         font-size: 13px;
         letter-spacing: 10px;
-        margin-top: -130px;
+        margin-top: -110px;
     }
     button {
         width: 180px;
@@ -1037,6 +1027,7 @@ li {
     }
     .button button {
         margin-top: -10px;
+        margin-bottom: 40px;
     }
 }
 
@@ -1047,11 +1038,8 @@ li {
     .container .box .role p {
         font-size: 8px;
         letter-spacing: 3px;
-        margin-top: -20px;
+        margin-top: 10px;
         margin-left: 0px;
-    }
-    .body__header img {
-        margin-top: 15px;
     }
     .body__about {
         flex-wrap: wrap;
@@ -1124,7 +1112,7 @@ li {
     .coordinate {
         display: flex;
         flex-wrap: wrap;
-        margin: 30px 30px;
+        margin: 40px 30px;
         justify-content: center;
         color: white;
         flex-direction: column;
@@ -1144,7 +1132,7 @@ li {
         margin-top: 30px;
     }
     .list__button {
-        margin-top: 200px;
+        margin-top: 650px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1156,7 +1144,7 @@ li {
         margin-top: -110px;
     }
     button {
-        width: 160px;
+        width: 170px;
         height: 30px;
         font-size: 10px;
     }
@@ -1173,29 +1161,13 @@ li {
 }
 
 @media screen and (max-width: 330px) {
-    .back a img {
-        width: 50px;
-        height: 50px;
-        font-weight: 600;
-        left: 4%;
-        top: -1%;
-        z-index: 999;
-        position: absolute;
-        border-radius: 30px;
-        text-align: center;
-        cursor: pointer;
-        padding: 10px;
-        font-size: 18px;
-        margin-top: 20px;
-        margin-bottom: 40px;
-    }
     .container .box .title h1 {
-        font-size: 15px;
+        font-size: 14px;
     }
     .container .box .role p {
-        font-size: 9px;
+        font-size: 8px;
         letter-spacing: 1px;
-        margin-top: -20px;
+        margin-top: -10px;
         margin-left: 0px;
     }
     .body__about {
@@ -1244,7 +1216,7 @@ li {
         margin: 40px 10px;
     }
     .rounds p {
-        font-size: 13px;
+        font-size: 15px;
     }
     .rounds h2 {
         margin-left: 10px;
@@ -1265,7 +1237,7 @@ li {
     .coordinate {
         display: flex;
         flex-wrap: wrap;
-        margin: -10px 20px;
+        margin: 30px 20px;
         justify-content: center;
         color: white;
         flex-direction: column;
@@ -1282,7 +1254,7 @@ li {
         margin-left: -10px;
     }
     .list__button {
-        margin-top: 240px;
+        margin-top: 62rem;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1291,10 +1263,10 @@ li {
         position: absolute;
         font-size: 13px;
         letter-spacing: 10px;
-        margin-top: -120px;
+        margin-top: -110px;
     }
     button {
-        width: 160px;
+        width: 170px;
         height: 30px;
         font-size: 10px;
     }
@@ -1314,7 +1286,7 @@ li {
 
 @media screen and (max-width: 280px) {
     .container .box .title h1 {
-        font-size: 15n px;
+        font-size: 10px;
     }
     .container .box .role p {
         font-size: 7px;
